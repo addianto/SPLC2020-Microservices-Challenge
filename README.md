@@ -1,8 +1,8 @@
-# SPLC2020-Microservices-Challenge
+# SPLC2020 Microservices Challenge
 
 This repository is a fork of an upstream repository that contains the code for
 2020 SPLC challenge case related to Microservices & SPL. The challenge is being
-attempted by me and my colleague ([@ichlaffterlalu](https://github.com/ichlaffterlalu/SPLC2020-Microservices-Challenge])).
+attempted by me and my colleague ([@ichlaffterlalu](https://github.com/ichlaffterlalu/SPLC2020-Microservices-Challenge)).
 
 This repository comprises the artifacts for the 2020 SPLC challenge case "TODO", proposed by TODO
 
