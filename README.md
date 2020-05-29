@@ -1,5 +1,26 @@
 # Vert.x Microservice Blueprint
 
+## Exploratory Notes
+
+```bash
+nvm install 8.17
+nvm use 8.17
+npm install -g bower@1.8.8
+pushd api-gateway/src/main/resources/webroot
+bower install
+popd
+pushd monitor-dashboard/src/main/resources/webroot
+bower install
+popd
+pushd docker
+./build.sh
+./run.sh
+```
+
+## Original README Content
+
+The following text is the original content of the codebase:
+
 [![Travis Build Status](https://travis-ci.org/sczyh30/vertx-blueprint-microservice.svg?branch=master)](https://travis-ci.org/sczyh30/vertx-blueprint-microservice)
 
 Vert.x blueprint application - A micro-shop microservice application developed with Vert.x.
