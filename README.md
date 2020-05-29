@@ -75,7 +75,7 @@ bower install
 Then build the code:
 
 ```
-mvn clean install -Dmaven.test.skip=true
+mvn -DskipTests clean install
 ```
 
 To run the microservice with Docker Compose, please refer to the [running instruction](http://www.sczyh30.com/vertx-blueprint-microservice/index.html#show-time-).
