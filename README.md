@@ -8,6 +8,13 @@ It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Go kit
 
 You can read more about the [application design](./internal-docs/design.md).
 
+## Notes
+
+```bash
+cd deploy/docker-compose
+docker-compose -f docker-compose.yml up -d
+```
+
 ## Deployment Platforms
 
 The [deploy folder](./deploy/) contains scripts and instructions to provision the application onto your favourite platform. 
